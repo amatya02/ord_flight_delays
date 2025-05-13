@@ -1,0 +1,13 @@
+name: Ohare_flight_delays
+title: Ohare_flight_delays
+username: amatya02
+account: amatya02
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14740980
+bundleId: 10275367
+url: https://amatya02.shinyapps.io/Ohare_flight_delays/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: datasets/aa.csv|datasets/combined.csv|datasets/delta.csv|datasets/united.csv|final.R
