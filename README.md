@@ -8,7 +8,7 @@
 
 
 ## Project Overview
-This project analyzes 2023–2024 flight delays at Chicago O'Hare International Airport (ORD) for three major US airline operators - American Airlines (AA), Delta Airlines (DL), and United Airlines (UA) over reasons of the delay, major holidays, and distribution of delays by hour, weekday and month. In addition, it also explores the possibility of relationship between aircraft age and flight delays. Lastly, a prediction model based on 2023-2024 data attempts to predict flight delays on a particular date and time for 2025.
+This project analyzes 2023–2024 flight delays at Chicago O'Hare International Airport (ORD) for three major US airline operators - American Airlines (AA), Delta Airlines (DL), and United Airlines (UA) over reasons of the delay, major holidays, and distribution of delays by hour, weekday and month. In addition, it also explores the possibility of relationship between aircraft age and flight delays. Lastly, a prediction model based on 2023-2024 data attempts to predict flight delays on a particular date and time for 2025. All the analysis and visualizations are conviniently displayed on an interactive [Shiny Application](https://amatya02.shinyapps.io/Ohare_flight_delays/). 
 
 ## Things to keep in mind
 - The three biggest airlines in the U.S - American, United and Delta are chosen for this project to represent the nation's commercial flights since these airlines have a combined market share of 51.3% (Voronoi 2024 )
