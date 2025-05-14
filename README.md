@@ -161,23 +161,6 @@ combined_age <- combined %>%
 
 **Note**: All the `NA` values are those aircrafts that flew out of a NYC airport in 2013 but did not fly out of ORD in 2023-2024. The `nycflights13` package contains only those flights that flew out of NYC in 2013 . We could not find a similar dataset for ORD 2023-2024 so we still used NYC 2013 data to calculate aircraft age.
 
-## US Major Holidays Lookup
-```
-library(timeDate)
-# Holiday lookup (major U.S. holidays)
-years    <- unique(year(combined$FlightDate))
-hol_funcs <- list(
-  "New Year's Day"   = USNewYearsDay,
-  "Memorial Day"     = USMemorialDay,
-  "Independence Day" = USIndependenceDay,
-  "Labor Day"        = USLaborDay,
-  "Thanksgiving Day" = USThanksgivingDay,
-  "Christmas Day"    = USChristmasDay
-)
-holiday_df <- imap_dfr(hol_funcs, ~{
-  tibble(Date = as.Date(.x(years)), Holiday = .y)
-})
-```
 ## Flight Delay Predictor
 ```
 # Seasonal‐average table (2023 & 2024) by Month/Day/Hour
